@@ -13,6 +13,12 @@ If you use NPM, `npm install d3-sankeyseq`.
 
 ## API Reference
 
+```html
+<script>
+var sankeySeq = d3.sankeySeq();
+</script>
+```
+
 function | parameter | explanation
 ------------ | -------|------
 `debugOn()` | *boolean* | e.g. `sankeySeq.debug(true)` turns on/off the console.log debugging. The default setting is false.
