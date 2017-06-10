@@ -19,10 +19,10 @@
   "scripts": {
     "old_pretest": "rm -rf build && mkdir build && rollup -f umd -n d3 -o build/d3-sankeySeq.js -- index.js",
     "old_test": "tape 'test/**/*-test.js'",
-    "old_postpublish": "zip -j build/d3-sankeySeq.zip -- LICENSE README.md build/d3-sankeySeq.js build/d3-sankeySeq.min.js"
+    "old_postpublish": "zip -j build/d3-sankeySeq.zip -- LICENSE README.md build/d3-sankeySeq.js build/d3-sankeySeq.min.js",
     "pretest": "rm -rf build && mkdir build && rollup -c",
     "test": "node test/sankeySeq-test.js | tap-spec && eslint index.js src",
-    "prepublish": "npm run test && uglifyjs build/d3-sankeySeq.js -c -m -o build/d3-sankeySeq.min.js",
+    "prepublish": "npm run test && uglifyjs build/d3-sankeySeq.js -c -m -o build/d3-sankeySeq.min.js"
   },
   "devDependencies": {
     "babel-plugin-external-helpers": "^6.22.0",
