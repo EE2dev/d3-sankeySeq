@@ -9,7 +9,7 @@ by an iterative procedure, sankeySeq is suitable for sequential data for a given
 
 ## Installing
 
-If you use NPM, `npm install d3-sankeySeq`. 
+If you use NPM, `npm install d3-sankeyseq`. 
 
 ## API Reference
 
