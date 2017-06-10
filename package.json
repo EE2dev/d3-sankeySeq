@@ -1,6 +1,6 @@
 {
   "name": "d3-sankeyseq",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Sankey plugin for sequential data",
   "keywords": [
     "d3",
