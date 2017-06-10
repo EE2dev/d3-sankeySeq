@@ -3,7 +3,7 @@
 SankeySeq.js is an adaptation of the [sankey plugin](https://github.com/d3/d3-sankey) for sequential data. Unlike the standard sankey diagram, where the position of the nodes are determined
 by an iterative procedure, sankeySeq is suitable for sequential data for a given sequence (e.g. time sequence) where the node positions are fixed. 
 
-An example how to use it is [here](https://github.com/EE2dev/sequence-explorer).
+[Here](https://github.com/EE2dev/sequence-explorer) is an example how to use it.
 
 ## Installing
 
