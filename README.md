@@ -2,7 +2,7 @@
 
 ![Image of css styled sankey chart](img/sankeySeq.png)
 
-SankeySeq.js is an adaptation of the [sankey plugin](https://github.com/d3/d3-sankey) for sequential data. Unlike the standard sankey diagram, where the position of the nodes are determined
+d3-sankeySeq.js is an adaptation of the [sankey plugin](https://github.com/d3/d3-sankey) for sequential data. Unlike the standard sankey diagram, where the position of the nodes are determined
 by an iterative procedure, sankeySeq is suitable for sequential data for a given sequence (e.g. time sequence) where the node positions are fixed. 
 
 [Here](https://github.com/EE2dev/sequence-explorer) is an example how to use it.
@@ -16,7 +16,7 @@ If you use NPM, `npm install d3-sankeyseq`.
 function | parameter | explanation
 ------------ | -------|------
 `debugOn()` | *boolean* | e.g. `sankeySeq.debug(true)` turns on/off the console.log debugging. The default setting is false.
-`size()` | *2-dim array* |, e.g. `sankeySeq.size([600, 400])`y sets size of the SVG based on an array [width, height]. The default size is [700, 500].
+`size()` | *2-dim array* |, e.g. `sankeySeq.size([600, 400])` sets size of the SVG based on an array [width, height]. The default size is [700, 500].
 `margin()` | *integer* | e.g. `sankeySeq.margin(10)` sets margin in pixels for top, right, bottom, left. The default margin is 0 px.
 `sequence()` | *array* | e.g. `sankeySeq.sequence(["2000", "2001", "2002"])` sets the order of the sequence based on an array. The default order is ascending.
 `categories()` | *array* | e.g. `sankeySeq.categories(["A", "B", "C"])` sets the order of the categories based on an array. The default order is ascending.
