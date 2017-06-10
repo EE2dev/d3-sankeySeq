@@ -1,6 +1,7 @@
 # d3-sankeySeq
 
 ![Image of css styled sankey chart](https://github.com/EE2dev/d3-sankeySeq/blob/master/img/sankeySeq.png)
+![Image of css styled sankey chart](img/sankeySeq.png)
 [<img alt="Image of css styled sankey chart" src="https://raw.githubusercontent.com/EE2dev/d3-sankeySeq/blob/master/img/sankeySeq.png" width="728">]
 
 SankeySeq.js is an adaptation of the [sankey plugin](https://github.com/d3/d3-sankey) for sequential data. Unlike the standard sankey diagram, where the position of the nodes are determined
