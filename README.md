@@ -1,4 +1,4 @@
-# d3-sankeyseq
+# d3-sankeySeq
 
 ![Image of css styled sankey chart](img/sankeySeq.png)
 
